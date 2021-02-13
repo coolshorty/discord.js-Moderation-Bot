@@ -11,7 +11,7 @@ module.exports.run = async (client, message, msg, args) => {
   .setTitle("Invite for the bot!")
   .setColor("RANDOM")
   .setDescription("This command sends you a dm with the invite")
-  .addField("Here is the invite:", "Your bot invite here!")
+  .addField("Here is the invite:", "https://discord.com/api/oauth2/authorize?client_id=810235338537697330&permissions=8&scope=bot")
   .setFooter("Thank you for Inviting me to your server!")
   
   message.delete();
