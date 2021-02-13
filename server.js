@@ -32,7 +32,7 @@ fs.readdir("./commands/", (err, files) => {
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity("for ?help" + " Users!" , {type: 'WATCHING', url: "https://twitch.tv/kickz19"}) // good. check the bot works //Why are you messing with it lol
+  client.user.setActivity("" + " ${client.guilds.size} servers" , {type: 'WATCHING', url: "https://twitch.tv/kickz19"}) // good. check the bot works //Why are you messing with it lol
 });
 
 client.on('message', async (msg, message, channel) => {
